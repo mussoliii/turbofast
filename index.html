@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turbo Fast - Zoom License Provider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #3d5afe;
+            --dark-blue: #2a3eb1;
+            --white: #ffffff;
+            --light-bg: #f4f7ff;
+            --messenger: #0084ff;
+            --telegram: #0088cc;
+            --success: #2ecc71;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Pyidaungsu', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h1 { font-size: 2.8rem; margin: 0; letter-spacing: 1px; }
+
+        .contact-bar {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .contact-item { 
+            text-decoration: none; 
+            color: white; 
+            display: flex; 
+            align-items: center; 
+            gap: 8px;
+            background: rgba(255,255,255,0.15);
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Features Section */
+        .features-section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .features-title {
+            text-align: center;
+            color: var(--dark-blue);
+            margin-bottom: 30px;
+            font-size: 1.5rem;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .feature-item i {
+            color: var(--success);
+            font-size: 1.4rem;
+            margin-top: 4px;
+        }
+
+        .feature-item strong {
+            display: block;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .feature-item p {
+            margin: 0;
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        /* Pricing Section */
+        .pricing-container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        .price-card {
+            background: white;
+            border-radius: 20px;
+            padding: 35px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-top: 6px solid var(--primary-blue);
+            position: relative;
+        }
+
+        .price-card h2 { color: var(--primary-blue); margin-bottom: 20px; }
+
+        .price-list { list-style: none; padding: 0; margin-bottom: 30px; }
+        .price-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+        .price-list .price { color: #d32f2f; font-weight: bold; }
+
+        .btn-group { display: flex; flex-direction: column; gap: 10px; }
+
+        .buy-btn {
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: 0.3s;
+        }
+        .tg-btn { background-color: var(--telegram); }
+        .ms-btn { background-color: var(--messenger); }
+        .buy-btn:hover { filter: brightness(1.1); transform: scale(1.02); }
+
+        .footer-note { 
+            text-align: center; 
+            padding: 40px 20px; 
+            color: #555;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <h1>Turbo Fast</h1>
+        <p>ZOOM LICENSE PROVIDER</p>
+        <div class="contact-bar">
+            <a href="tel:09798876461" class="contact-item"><i class="fas fa-phone"></i> 09798876461</a>
+            <a href="https://t.me/Turbofast" target="_blank" class="contact-item"><i class="fab fa-telegram"></i> @Turbofast</a>
+            <a href="https://facebook.com/turbofast123" target="_blank" class="contact-item"><i class="fab fa-facebook"></i> Turbo Fast</a>
+        </div>
+    </header>
+
+    <section class="features-section">
+        <h3 class="features-title">✨ Zoom Premium (Pro) သုံးခြင်းရဲ့ အားသာချက်များ</h3>
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                    <strong>Unlimited Meeting Time</strong>
+                    <p>အချိန်ကန့်သတ်ချက်မရှိ စိတ်ကြိုက်အသုံးပြုနိုင်ခြင်း။</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                    <strong>Cloud Recording</strong>
+                    <p>အရေးကြီးတဲ့ Meeting တွေကို Cloud ပေါ်မှာ သိမ်းဆည်းပြီး ပြန်ကြည့်နိုင်ခြင်း။</p>
+                </div>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                    <strong>Breakout Rooms</strong>
+                    <p>ဆွေးနွေးပွဲတွေကို အခန်းခွဲပြီး စနစ်တကျ လုပ်ဆောင်နိုင်ခြင်း။</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="pricing-container">
+        <div class="price-card">
+            <h2>Member License</h2>
+            <ul class="price-list">
+                <li><span>14 Days</span> <span class="price">10,000 KS</span></li>
+                <li><span>1 Month</span> <span class="price">18,000 KS</span></li>
+                <li><span>3 Months</span> <span class="price">50,000 KS</span></li>
+            </ul>
+            <div class="btn-group">
+                <a href="https://t.me/Turbofast" class="buy-btn tg-btn"><i class="fab fa-telegram"></i> Order via Telegram</a>
+                <a href="https://m.me/turbofast123" class="buy-btn ms-btn"><i class="fab fa-facebook-messenger"></i> Order via Messenger</a>
+            </div>
+        </div>
+
+        <div class="price-card">
+            <h2>Owner License</h2>
+            <ul class="price-list">
+                <li><span>14 Days</span> <span class="price">14,000 KS</span></li>
+                <li><span>1 Month</span> <span class="price">28,000 KS</span></li>
+                <li><span>3 Months</span> <span class="price">80,000 KS</span></li>
+            </ul>
+            <div class="btn-group">
+                <a href="https://t.me/Turbofast" class="buy-btn tg-btn"><i class="fab fa-telegram"></i> Order via Telegram</a>
+                <a href="https://m.me/turbofast123" class="buy-btn ms-btn"><i class="fab fa-facebook-messenger"></i> Order via Messenger</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-note">
+        <p><i class="fas fa-shield-alt" style="color: var(--primary-blue);"></i> လိုင်စင်ရမှ ငွေလွှဲပေးလို့ရပါတယ်ခင်ဗျာ</p>
+    </footer>
+
+</body>
+</html>
